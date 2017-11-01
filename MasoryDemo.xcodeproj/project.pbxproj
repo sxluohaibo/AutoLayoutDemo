@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E19DCD5A1FA959D100C23C38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DCD591FA959D100C23C38 /* AppDelegate.m */; };
+		E19DCD5D1FA959D100C23C38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DCD5C1FA959D100C23C38 /* ViewController.m */; };
+		E19DCD601FA959D100C23C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19DCD5E1FA959D100C23C38 /* Main.storyboard */; };
+		E19DCD621FA959D100C23C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19DCD611FA959D100C23C38 /* Assets.xcassets */; };
+		E19DCD651FA959D100C23C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19DCD631FA959D100C23C38 /* LaunchScreen.storyboard */; };
+		E19DCD681FA959D100C23C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DCD671FA959D100C23C38 /* main.m */; };
+		E19DCD721FA959D100C23C38 /* MasoryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DCD711FA959D100C23C38 /* MasoryDemoTests.m */; };
+		E19DCD7D1FA959D100C23C38 /* MasoryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DCD7C1FA959D100C23C38 /* MasoryDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E19DCD6E1FA959D100C23C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19DCD4D1FA959D000C23C38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19DCD541FA959D100C23C38;
+			remoteInfo = MasoryDemo;
+		};
+		E19DCD791FA959D100C23C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19DCD4D1FA959D000C23C38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19DCD541FA959D100C23C38;
+			remoteInfo = MasoryDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E19DCD551FA959D100C23C38 /* MasoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19DCD581FA959D100C23C38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E19DCD591FA959D100C23C38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E19DCD5B1FA959D100C23C38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E19DCD5C1FA959D100C23C38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E19DCD5F1FA959D100C23C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E19DCD611FA959D100C23C38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E19DCD641FA959D100C23C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E19DCD661FA959D100C23C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19DCD671FA959D100C23C38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E19DCD6D1FA959D100C23C38 /* MasoryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasoryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19DCD711FA959D100C23C38 /* MasoryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasoryDemoTests.m; sourceTree = "<group>"; };
+		E19DCD731FA959D100C23C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19DCD781FA959D100C23C38 /* MasoryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasoryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19DCD7C1FA959D100C23C38 /* MasoryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasoryDemoUITests.m; sourceTree = "<group>"; };
+		E19DCD7E1FA959D100C23C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E19DCD521FA959D100C23C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19DCD6A1FA959D100C23C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19DCD751FA959D100C23C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E19DCD4C1FA959D000C23C38 = {
+			isa = PBXGroup;
+			children = (
+				E19DCD571FA959D100C23C38 /* MasoryDemo */,
+				E19DCD701FA959D100C23C38 /* MasoryDemoTests */,
+				E19DCD7B1FA959D100C23C38 /* MasoryDemoUITests */,
+				E19DCD561FA959D100C23C38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E19DCD561FA959D100C23C38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E19DCD551FA959D100C23C38 /* MasoryDemo.app */,
+				E19DCD6D1FA959D100C23C38 /* MasoryDemoTests.xctest */,
+				E19DCD781FA959D100C23C38 /* MasoryDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E19DCD571FA959D100C23C38 /* MasoryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E19DCD581FA959D100C23C38 /* AppDelegate.h */,
+				E19DCD591FA959D100C23C38 /* AppDelegate.m */,
+				E19DCD5B1FA959D100C23C38 /* ViewController.h */,
+				E19DCD5C1FA959D100C23C38 /* ViewController.m */,
+				E19DCD5E1FA959D100C23C38 /* Main.storyboard */,
+				E19DCD611FA959D100C23C38 /* Assets.xcassets */,
+				E19DCD631FA959D100C23C38 /* LaunchScreen.storyboard */,
+				E19DCD661FA959D100C23C38 /* Info.plist */,
+				E19DCD671FA959D100C23C38 /* main.m */,
+			);
+			path = MasoryDemo;
+			sourceTree = "<group>";
+		};
+		E19DCD701FA959D100C23C38 /* MasoryDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E19DCD711FA959D100C23C38 /* MasoryDemoTests.m */,
+				E19DCD731FA959D100C23C38 /* Info.plist */,
+			);
+			path = MasoryDemoTests;
+			sourceTree = "<group>";
+		};
+		E19DCD7B1FA959D100C23C38 /* MasoryDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E19DCD7C1FA959D100C23C38 /* MasoryDemoUITests.m */,
+				E19DCD7E1FA959D100C23C38 /* Info.plist */,
+			);
+			path = MasoryDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E19DCD541FA959D100C23C38 /* MasoryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19DCD811FA959D100C23C38 /* Build configuration list for PBXNativeTarget "MasoryDemo" */;
+			buildPhases = (
+				E19DCD511FA959D100C23C38 /* Sources */,
+				E19DCD521FA959D100C23C38 /* Frameworks */,
+				E19DCD531FA959D100C23C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasoryDemo;
+			productName = MasoryDemo;
+			productReference = E19DCD551FA959D100C23C38 /* MasoryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E19DCD6C1FA959D100C23C38 /* MasoryDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19DCD841FA959D100C23C38 /* Build configuration list for PBXNativeTarget "MasoryDemoTests" */;
+			buildPhases = (
+				E19DCD691FA959D100C23C38 /* Sources */,
+				E19DCD6A1FA959D100C23C38 /* Frameworks */,
+				E19DCD6B1FA959D100C23C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E19DCD6F1FA959D100C23C38 /* PBXTargetDependency */,
+			);
+			name = MasoryDemoTests;
+			productName = MasoryDemoTests;
+			productReference = E19DCD6D1FA959D100C23C38 /* MasoryDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E19DCD771FA959D100C23C38 /* MasoryDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19DCD871FA959D100C23C38 /* Build configuration list for PBXNativeTarget "MasoryDemoUITests" */;
+			buildPhases = (
+				E19DCD741FA959D100C23C38 /* Sources */,
+				E19DCD751FA959D100C23C38 /* Frameworks */,
+				E19DCD761FA959D100C23C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E19DCD7A1FA959D100C23C38 /* PBXTargetDependency */,
+			);
+			name = MasoryDemoUITests;
+			productName = MasoryDemoUITests;
+			productReference = E19DCD781FA959D100C23C38 /* MasoryDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E19DCD4D1FA959D000C23C38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "孟辉";
+				TargetAttributes = {
+					E19DCD541FA959D100C23C38 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					E19DCD6C1FA959D100C23C38 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E19DCD541FA959D100C23C38;
+					};
+					E19DCD771FA959D100C23C38 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E19DCD541FA959D100C23C38;
+					};
+				};
+			};
+			buildConfigurationList = E19DCD501FA959D000C23C38 /* Build configuration list for PBXProject "MasoryDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E19DCD4C1FA959D000C23C38;
+			productRefGroup = E19DCD561FA959D100C23C38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E19DCD541FA959D100C23C38 /* MasoryDemo */,
+				E19DCD6C1FA959D100C23C38 /* MasoryDemoTests */,
+				E19DCD771FA959D100C23C38 /* MasoryDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E19DCD531FA959D100C23C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19DCD651FA959D100C23C38 /* LaunchScreen.storyboard in Resources */,
+				E19DCD621FA959D100C23C38 /* Assets.xcassets in Resources */,
+				E19DCD601FA959D100C23C38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19DCD6B1FA959D100C23C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19DCD761FA959D100C23C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E19DCD511FA959D100C23C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19DCD5D1FA959D100C23C38 /* ViewController.m in Sources */,
+				E19DCD681FA959D100C23C38 /* main.m in Sources */,
+				E19DCD5A1FA959D100C23C38 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19DCD691FA959D100C23C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19DCD721FA959D100C23C38 /* MasoryDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19DCD741FA959D100C23C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19DCD7D1FA959D100C23C38 /* MasoryDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E19DCD6F1FA959D100C23C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E19DCD541FA959D100C23C38 /* MasoryDemo */;
+			targetProxy = E19DCD6E1FA959D100C23C38 /* PBXContainerItemProxy */;
+		};
+		E19DCD7A1FA959D100C23C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E19DCD541FA959D100C23C38 /* MasoryDemo */;
+			targetProxy = E19DCD791FA959D100C23C38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E19DCD5E1FA959D100C23C38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19DCD5F1FA959D100C23C38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E19DCD631FA959D100C23C38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19DCD641FA959D100C23C38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E19DCD7F1FA959D100C23C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E19DCD801FA959D100C23C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E19DCD821FA959D100C23C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96GEC3X62W;
+				INFOPLIST_FILE = MasoryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.outfit.MasoryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E19DCD831FA959D100C23C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96GEC3X62W;
+				INFOPLIST_FILE = MasoryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.outfit.MasoryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E19DCD851FA959D100C23C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96GEC3X62W;
+				INFOPLIST_FILE = MasoryDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.outfit.MasoryDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasoryDemo.app/MasoryDemo";
+			};
+			name = Debug;
+		};
+		E19DCD861FA959D100C23C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96GEC3X62W;
+				INFOPLIST_FILE = MasoryDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.outfit.MasoryDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasoryDemo.app/MasoryDemo";
+			};
+			name = Release;
+		};
+		E19DCD881FA959D100C23C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96GEC3X62W;
+				INFOPLIST_FILE = MasoryDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.outfit.MasoryDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MasoryDemo;
+			};
+			name = Debug;
+		};
+		E19DCD891FA959D100C23C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96GEC3X62W;
+				INFOPLIST_FILE = MasoryDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.outfit.MasoryDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MasoryDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E19DCD501FA959D000C23C38 /* Build configuration list for PBXProject "MasoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19DCD7F1FA959D100C23C38 /* Debug */,
+				E19DCD801FA959D100C23C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19DCD811FA959D100C23C38 /* Build configuration list for PBXNativeTarget "MasoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19DCD821FA959D100C23C38 /* Debug */,
+				E19DCD831FA959D100C23C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19DCD841FA959D100C23C38 /* Build configuration list for PBXNativeTarget "MasoryDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19DCD851FA959D100C23C38 /* Debug */,
+				E19DCD861FA959D100C23C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19DCD871FA959D100C23C38 /* Build configuration list for PBXNativeTarget "MasoryDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19DCD881FA959D100C23C38 /* Debug */,
+				E19DCD891FA959D100C23C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E19DCD4D1FA959D000C23C38 /* Project object */;
+}
