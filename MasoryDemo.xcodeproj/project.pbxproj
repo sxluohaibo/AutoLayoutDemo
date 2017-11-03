@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		126EAC051FAC36FE0062C266 /* MSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 126EAC041FAC36FE0062C266 /* MSTableViewCell.m */; };
+		D0B11756DCC7CFD0E9A149A5 /* libPods-MasoryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCEFE83433E3E4AFCCE3444 /* libPods-MasoryDemo.a */; };
 		E19DCD5A1FA959D100C23C38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DCD591FA959D100C23C38 /* AppDelegate.m */; };
 		E19DCD5D1FA959D100C23C38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DCD5C1FA959D100C23C38 /* ViewController.m */; };
 		E19DCD601FA959D100C23C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19DCD5E1FA959D100C23C38 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		E19DCD681FA959D100C23C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DCD671FA959D100C23C38 /* main.m */; };
 		E19DCD721FA959D100C23C38 /* MasoryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DCD711FA959D100C23C38 /* MasoryDemoTests.m */; };
 		E19DCD7D1FA959D100C23C38 /* MasoryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DCD7C1FA959D100C23C38 /* MasoryDemoUITests.m */; };
+		E19DCD931FA95FA300C23C38 /* MSXibTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E19DCD911FA95FA300C23C38 /* MSXibTableViewCell.m */; };
+		E19DCD941FA95FA300C23C38 /* MSXibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19DCD921FA95FA300C23C38 /* MSXibTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		126EAC031FAC36FE0062C266 /* MSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTableViewCell.h; sourceTree = "<group>"; };
+		126EAC041FAC36FE0062C266 /* MSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTableViewCell.m; sourceTree = "<group>"; };
+		1BCEFE83433E3E4AFCCE3444 /* libPods-MasoryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasoryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		966182EE8E57D53355DAC91F /* Pods-MasoryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasoryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasoryDemo/Pods-MasoryDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E19DCD551FA959D100C23C38 /* MasoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19DCD581FA959D100C23C38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E19DCD591FA959D100C23C38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		E19DCD781FA959D100C23C38 /* MasoryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasoryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19DCD7C1FA959D100C23C38 /* MasoryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasoryDemoUITests.m; sourceTree = "<group>"; };
 		E19DCD7E1FA959D100C23C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19DCD901FA95FA300C23C38 /* MSXibTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSXibTableViewCell.h; sourceTree = "<group>"; };
+		E19DCD911FA95FA300C23C38 /* MSXibTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSXibTableViewCell.m; sourceTree = "<group>"; };
+		E19DCD921FA95FA300C23C38 /* MSXibTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MSXibTableViewCell.xib; sourceTree = "<group>"; };
+		E6BCEDC0402E46BA7C984124 /* Pods-MasoryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasoryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasoryDemo/Pods-MasoryDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B11756DCC7CFD0E9A149A5 /* libPods-MasoryDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80CE1E2542D844EDCAB383FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BCEFE83433E3E4AFCCE3444 /* libPods-MasoryDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E19DCD4C1FA959D000C23C38 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +106,8 @@
 				E19DCD701FA959D100C23C38 /* MasoryDemoTests */,
 				E19DCD7B1FA959D100C23C38 /* MasoryDemoUITests */,
 				E19DCD561FA959D100C23C38 /* Products */,
+				FF619E71D4CBF27E2B9F8E19 /* Pods */,
+				80CE1E2542D844EDCAB383FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +124,15 @@
 		E19DCD571FA959D100C23C38 /* MasoryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				126EAC041FAC36FE0062C266 /* MSTableViewCell.m */,
+				126EAC031FAC36FE0062C266 /* MSTableViewCell.h */,
 				E19DCD581FA959D100C23C38 /* AppDelegate.h */,
 				E19DCD591FA959D100C23C38 /* AppDelegate.m */,
 				E19DCD5B1FA959D100C23C38 /* ViewController.h */,
 				E19DCD5C1FA959D100C23C38 /* ViewController.m */,
+				E19DCD901FA95FA300C23C38 /* MSXibTableViewCell.h */,
+				E19DCD911FA95FA300C23C38 /* MSXibTableViewCell.m */,
+				E19DCD921FA95FA300C23C38 /* MSXibTableViewCell.xib */,
 				E19DCD5E1FA959D100C23C38 /* Main.storyboard */,
 				E19DCD611FA959D100C23C38 /* Assets.xcassets */,
 				E19DCD631FA959D100C23C38 /* LaunchScreen.storyboard */,
@@ -132,6 +160,15 @@
 			path = MasoryDemoUITests;
 			sourceTree = "<group>";
 		};
+		FF619E71D4CBF27E2B9F8E19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				966182EE8E57D53355DAC91F /* Pods-MasoryDemo.debug.xcconfig */,
+				E6BCEDC0402E46BA7C984124 /* Pods-MasoryDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E19DCD811FA959D100C23C38 /* Build configuration list for PBXNativeTarget "MasoryDemo" */;
 			buildPhases = (
+				AEEA725590854F43C478DC86 /* [CP] Check Pods Manifest.lock */,
 				E19DCD511FA959D100C23C38 /* Sources */,
 				E19DCD521FA959D100C23C38 /* Frameworks */,
 				E19DCD531FA959D100C23C38 /* Resources */,
+				757917883D8399A83FC640DB /* [CP] Embed Pods Frameworks */,
+				5CAAD613918931203FDC6E26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E19DCD651FA959D100C23C38 /* LaunchScreen.storyboard in Resources */,
+				E19DCD941FA95FA300C23C38 /* MSXibTableViewCell.xib in Resources */,
 				E19DCD621FA959D100C23C38 /* Assets.xcassets in Resources */,
 				E19DCD601FA959D100C23C38 /* Main.storyboard in Resources */,
 			);
@@ -260,12 +301,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5CAAD613918931203FDC6E26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasoryDemo/Pods-MasoryDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		757917883D8399A83FC640DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasoryDemo/Pods-MasoryDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEEA725590854F43C478DC86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MasoryDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E19DCD511FA959D100C23C38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E19DCD5D1FA959D100C23C38 /* ViewController.m in Sources */,
+				E19DCD931FA95FA300C23C38 /* MSXibTableViewCell.m in Sources */,
+				126EAC051FAC36FE0062C266 /* MSTableViewCell.m in Sources */,
 				E19DCD681FA959D100C23C38 /* main.m in Sources */,
 				E19DCD5A1FA959D100C23C38 /* AppDelegate.m in Sources */,
 			);
@@ -428,6 +522,7 @@
 		};
 		E19DCD821FA959D100C23C38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966182EE8E57D53355DAC91F /* Pods-MasoryDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +537,7 @@
 		};
 		E19DCD831FA959D100C23C38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6BCEDC0402E46BA7C984124 /* Pods-MasoryDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
